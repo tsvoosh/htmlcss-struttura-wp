@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 1% 6.5%;
+}
+
+header {
+    height: 15vh;
+    background-color: rgb(229,121,230);
+}
+
+#first {
+    height: 60vh;
+    background-color: rgb(225,214,122);
+    margin-top: 3vh;
+}
+
+#second {
+    height: 70vh;
+    background-color: rgb(1,134,255);
+    margin-top: 3vh;
+}
+
+footer {
+    height: 8vh;
+    background-color: rgb(136,1,254);
+    margin-top: 1vh;
+}
+
+#heading {
+    height: 15%;
+    background-color: rgb(171,207,231);
+}
+
+.wrapper {
+    height: 85%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.content {
+    background-color: rgb(171,207,231);
+    height: 100%;
+}
+
+.left , .right{
+    width: 23%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.middle {
+    width: 51%;
+    display: inline-block;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
